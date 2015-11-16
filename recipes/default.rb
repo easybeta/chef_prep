@@ -8,4 +8,5 @@
 #
 
 include_recipe "chef_prep::install_modules"
+include_recipe "chef_prep::prep_env"
 include_recipe "chef_prep::trigger_script"
